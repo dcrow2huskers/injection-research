@@ -49,9 +49,9 @@ follow_up.txt
 ---
 
 ### 2. **Models Tested**
-- **OpenAI GPT (gpt-5.1 / gpt-5-series, depending on availability)**  
+- **OpenAI GPT (GPT-5.1)**  
 - **GitHub Copilot (VS Code + Copilot Chat)**  
-- **Anthropic Claude (Claude 3.5 family)**  
+- **Anthropic Claude (Sonnet 4.5)**  
 
 Each prompt is run on each model → **20 × 3 = 60 samples per language**.
 
