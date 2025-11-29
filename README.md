@@ -40,7 +40,6 @@ Complete prompt list is stored in:
 /prompts/
 naive.txt
 security_aware.txt
-follow_up.txt
 
 ---
 
