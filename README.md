@@ -16,7 +16,7 @@ The project uses a controlled set of **20 prompts** (naive, security-aware) and 
 - Compare vulnerability patterns across:
   - **Models:** GPT vs. Gemini vs. Claude  
   - **Languages:** Python vs. Java  
-  - **Prompt Types:** naïve vs. security-aware 
+  - **Prompt Types:** naive vs. security-aware 
 - Identify the most common vulnerability categories produced by each LLM.
 - Evaluate the effectiveness of prompt-based mitigation (secure-prompting).
 - Produce recommendations for safe LLM usage in software development environments.
@@ -28,7 +28,7 @@ The project uses a controlled set of **20 prompts** (naive, security-aware) and 
 ### 1. **Prompt Set**
 Prompts fall into two categories:
 
-#### **A. Naïve Prompts (10 total)**
+#### **A. Naive Prompts (10 total)**
 These prompts request straightforward code generation with no mention of security.  
 Purpose: simulate real users who "just want working code."
 
