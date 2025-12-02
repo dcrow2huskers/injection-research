@@ -71,13 +71,3 @@ Where applicable:
 Output stored in: /analysis/dynamic
 
 ---
-
-### 5. **Manual Review**
-Code samples will undergo manual review for:
-- Injection style
-- Mitigation presence
-- API misuse
-- Severity rating
-- Recurring patterns per model
-
----
