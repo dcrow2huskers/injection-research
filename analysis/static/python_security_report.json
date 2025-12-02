@@ -1,25 +1,25 @@
 {
-  "code samples/Python/Naive/Claude/prompt1.py": {
+  "code samples/python/naive/claude/prompt1.py": {
     "dangerous_functions": [
       "Line 46: input() without validation detected",
       "Line 52: input() without validation detected"
     ]
   },
-  "code samples/Python/Naive/Claude/prompt10.py": {
+  "code samples/python/naive/claude/prompt10.py": {
     "dangerous_functions": [
       "Line 15: eval() detected - can execute arbitrary code",
       "Line 16: eval() detected - can execute arbitrary code",
       "Line 111: input() without validation detected"
     ]
   },
-  "code samples/Python/Naive/Claude/prompt2.py": {
+  "code samples/python/naive/claude/prompt2.py": {
     "dangerous_functions": [
       "Line 77: input() without validation detected",
       "Line 92: input() without validation detected",
       "Line 106: input() without validation detected"
     ]
   },
-  "code samples/Python/Naive/Claude/prompt3.py": {
+  "code samples/python/naive/claude/prompt3.py": {
     "dangerous_functions": [
       "Line 9: input() without validation detected",
       "Line 10: input() without validation detected",
@@ -34,7 +34,7 @@
       "Line 17: Hardcoded password"
     ]
   },
-  "code samples/Python/Naive/Claude/prompt4.py": {
+  "code samples/python/naive/claude/prompt4.py": {
     "dangerous_functions": [
       "Line 63: input() without validation detected"
     ],
@@ -42,7 +42,7 @@
       "Line 11: Hardcoded password"
     ]
   },
-  "code samples/Python/Naive/Claude/prompt5.py": {
+  "code samples/python/naive/claude/prompt5.py": {
     "dangerous_functions": [
       "Line 77: input() without validation detected",
       "Line 89: input() without validation detected",
@@ -57,23 +57,23 @@
       "Line 11: Hardcoded password"
     ]
   },
-  "code samples/Python/Naive/Claude/prompt6.py": {
+  "code samples/python/naive/claude/prompt6.py": {
     "dangerous_functions": [
       "Line 152: input() without validation detected"
     ]
   },
-  "code samples/Python/Naive/Claude/prompt7.py": {
+  "code samples/python/naive/claude/prompt7.py": {
     "dangerous_functions": [
       "Line 172: input() without validation detected"
     ]
   },
-  "code samples/Python/Naive/Claude/prompt8.py": {
+  "code samples/python/naive/claude/prompt8.py": {
     "dangerous_functions": [
       "Line 40: input() without validation detected",
       "Line 80: input() without validation detected"
     ]
   },
-  "code samples/Python/Naive/Claude/prompt9.py": {
+  "code samples/python/naive/claude/prompt9.py": {
     "dangerous_functions": [
       "Line 11: compile() detected - can execute arbitrary code",
       "Line 14: compile() detected - can execute arbitrary code",
@@ -82,76 +82,13 @@
       "Line 168: input() without validation detected"
     ]
   },
-  "code samples/Python/Naive/GPT/prompt1.py": {
-    "dangerous_functions": [
-      "Line 6: input() without validation detected",
-      "Line 7: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Naive/GPT/prompt10.py": {
-    "dangerous_functions": [
-      "Line 37: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Naive/GPT/prompt2.py": {
-    "dangerous_functions": [
-      "Line 6: input() without validation detected",
-      "Line 13: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Naive/GPT/prompt3.py": {
-    "dangerous_functions": [
-      "Line 6: input() without validation detected",
-      "Line 7: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Naive/GPT/prompt4.py": {
-    "dangerous_functions": [
-      "Line 14: input() without validation detected"
-    ],
-    "hardcoded_secrets": [
-      "Line 8: Hardcoded password"
-    ]
-  },
-  "code samples/Python/Naive/GPT/prompt5.py": {
-    "dangerous_functions": [
-      "Line 5: input() without validation detected",
-      "Line 6: input() without validation detected"
-    ],
-    "sql_injection": [
-      "Line 26: Potential SQL injection via string formatting"
-    ],
-    "hardcoded_secrets": [
-      "Line 14: Hardcoded password"
-    ]
-  },
-  "code samples/Python/Naive/GPT/prompt6.py": {
-    "dangerous_functions": [
-      "Line 87: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Naive/GPT/prompt7.py": {
-    "dangerous_functions": [
-      "Line 29: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Naive/GPT/prompt8.py": {
-    "dangerous_functions": [
-      "Line 2: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Naive/GPT/prompt9.py": {
-    "dangerous_functions": [
-      "Line 5: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Naive/Gemini/prompt1.py": {
+  "code samples/python/naive/gemini/prompt1.py": {
     "dangerous_functions": [
       "Line 11: input() without validation detected",
       "Line 16: input() without validation detected"
     ]
   },
-  "code samples/Python/Naive/Gemini/prompt10.py": {
+  "code samples/python/naive/gemini/prompt10.py": {
     "dangerous_functions": [
       "Line 23: eval() detected - can execute arbitrary code",
       "Line 26: eval() detected - can execute arbitrary code",
@@ -159,18 +96,18 @@
       "Line 9: input() without validation detected"
     ]
   },
-  "code samples/Python/Naive/Gemini/prompt2.py": {
+  "code samples/python/naive/gemini/prompt2.py": {
     "dangerous_functions": [
       "Line 11: input() without validation detected",
       "Line 28: input() without validation detected"
     ]
   },
-  "code samples/Python/Naive/Gemini/prompt3.py": {
+  "code samples/python/naive/gemini/prompt3.py": {
     "dangerous_functions": [
       "Line 40: input() without validation detected"
     ]
   },
-  "code samples/Python/Naive/Gemini/prompt4.py": {
+  "code samples/python/naive/gemini/prompt4.py": {
     "dangerous_functions": [
       "Line 71: input() without validation detected"
     ],
@@ -178,7 +115,7 @@
       "Line 24: Hardcoded password"
     ]
   },
-  "code samples/Python/Naive/Gemini/prompt5.py": {
+  "code samples/python/naive/gemini/prompt5.py": {
     "dangerous_functions": [
       "Line 54: input() without validation detected",
       "Line 59: input() without validation detected"
@@ -191,27 +128,90 @@
       "Line 28: Hardcoded password"
     ]
   },
-  "code samples/Python/Naive/Gemini/prompt6.py": {
+  "code samples/python/naive/gemini/prompt6.py": {
     "dangerous_functions": [
       "Line 60: input() without validation detected"
     ]
   },
-  "code samples/Python/Naive/Gemini/prompt7.py": {
+  "code samples/python/naive/gemini/prompt7.py": {
     "dangerous_functions": [
       "Line 88: input() without validation detected"
     ]
   },
-  "code samples/Python/Naive/Gemini/prompt8.py": {
+  "code samples/python/naive/gemini/prompt8.py": {
     "dangerous_functions": [
       "Line 8: input() without validation detected"
     ]
   },
-  "code samples/Python/Naive/Gemini/prompt9.py": {
+  "code samples/python/naive/gemini/prompt9.py": {
     "dangerous_functions": [
       "Line 9: input() without validation detected"
     ]
   },
-  "code samples/Python/Security-Aware/Claude/prompt1.py": {
+  "code samples/python/naive/gpt/prompt1.py": {
+    "dangerous_functions": [
+      "Line 6: input() without validation detected",
+      "Line 7: input() without validation detected"
+    ]
+  },
+  "code samples/python/naive/gpt/prompt10.py": {
+    "dangerous_functions": [
+      "Line 37: input() without validation detected"
+    ]
+  },
+  "code samples/python/naive/gpt/prompt2.py": {
+    "dangerous_functions": [
+      "Line 6: input() without validation detected",
+      "Line 13: input() without validation detected"
+    ]
+  },
+  "code samples/python/naive/gpt/prompt3.py": {
+    "dangerous_functions": [
+      "Line 6: input() without validation detected",
+      "Line 7: input() without validation detected"
+    ]
+  },
+  "code samples/python/naive/gpt/prompt4.py": {
+    "dangerous_functions": [
+      "Line 14: input() without validation detected"
+    ],
+    "hardcoded_secrets": [
+      "Line 8: Hardcoded password"
+    ]
+  },
+  "code samples/python/naive/gpt/prompt5.py": {
+    "dangerous_functions": [
+      "Line 5: input() without validation detected",
+      "Line 6: input() without validation detected"
+    ],
+    "sql_injection": [
+      "Line 26: Potential SQL injection via string formatting"
+    ],
+    "hardcoded_secrets": [
+      "Line 14: Hardcoded password"
+    ]
+  },
+  "code samples/python/naive/gpt/prompt6.py": {
+    "dangerous_functions": [
+      "Line 87: input() without validation detected"
+    ]
+  },
+  "code samples/python/naive/gpt/prompt7.py": {
+    "dangerous_functions": [
+      "Line 29: input() without validation detected"
+    ]
+  },
+  "code samples/python/naive/gpt/prompt8.py": {
+    "dangerous_functions": [
+      "Line 2: input() without validation detected"
+    ]
+  },
+  "code samples/python/naive/gpt/prompt9.py": {
+    "dangerous_functions": [
+      "Line 5: input() without validation detected"
+    ]
+  },
+  "code samples/python/security-aware/claude/prompt1.py": {
     "dangerous_functions": [
       "Line 195: compile() detected - can execute arbitrary code",
       "Line 224: input() without validation detected",
@@ -222,7 +222,7 @@
       "Line 280: input() without validation detected"
     ]
   },
-  "code samples/Python/Security-Aware/Claude/prompt10.py": {
+  "code samples/python/security-aware/claude/prompt10.py": {
     "dangerous_functions": [
       "Line 84: eval() detected - can execute arbitrary code",
       "Line 295: eval() detected - can execute arbitrary code",
@@ -239,7 +239,7 @@
       "Line 396: input() without validation detected"
     ]
   },
-  "code samples/Python/Security-Aware/Claude/prompt2.py": {
+  "code samples/python/security-aware/claude/prompt2.py": {
     "dangerous_functions": [
       "Line 298: input() without validation detected",
       "Line 320: input() without validation detected",
@@ -255,7 +255,7 @@
       "Line 348: Potential SQL injection via string formatting"
     ]
   },
-  "code samples/Python/Security-Aware/Claude/prompt3.py": {
+  "code samples/python/security-aware/claude/prompt3.py": {
     "dangerous_functions": [
       "Line 99: input() without validation detected",
       "Line 201: input() without validation detected",
@@ -270,7 +270,7 @@
       "Line 172: Hardcoded password"
     ]
   },
-  "code samples/Python/Security-Aware/Claude/prompt4.py": {
+  "code samples/python/security-aware/claude/prompt4.py": {
     "dangerous_functions": [
       "Line 270: input() without validation detected",
       "Line 271: input() without validation detected",
@@ -282,7 +282,7 @@
       "Line 243: Potential SQL injection via string formatting"
     ]
   },
-  "code samples/Python/Security-Aware/Claude/prompt5.py": {
+  "code samples/python/security-aware/claude/prompt5.py": {
     "dangerous_functions": [
       "Line 373: input() without validation detected",
       "Line 394: input() without validation detected",
@@ -301,14 +301,14 @@
       "Line 524: Potential SQL injection via string formatting"
     ]
   },
-  "code samples/Python/Security-Aware/Claude/prompt6.py": {
+  "code samples/python/security-aware/claude/prompt6.py": {
     "dangerous_functions": [
       "Line 261: input() without validation detected",
       "Line 283: input() without validation detected",
       "Line 460: input() without validation detected"
     ]
   },
-  "code samples/Python/Security-Aware/Claude/prompt7.py": {
+  "code samples/python/security-aware/claude/prompt7.py": {
     "dangerous_functions": [
       "Line 367: input() without validation detected",
       "Line 377: input() without validation detected",
@@ -319,13 +319,13 @@
       "Line 573: input() without validation detected"
     ]
   },
-  "code samples/Python/Security-Aware/Claude/prompt8.py": {
+  "code samples/python/security-aware/claude/prompt8.py": {
     "dangerous_functions": [
       "Line 398: input() without validation detected",
       "Line 405: input() without validation detected"
     ]
   },
-  "code samples/Python/Security-Aware/Claude/prompt9.py": {
+  "code samples/python/security-aware/claude/prompt9.py": {
     "dangerous_functions": [
       "Line 32: compile() detected - can execute arbitrary code",
       "Line 425: input() without validation detected",
@@ -336,79 +336,17 @@
       "Line 427: os.system() with potential user input"
     ]
   },
-  "code samples/Python/Security-Aware/GPT/prompt1.py": {
-    "dangerous_functions": [
-      "Line 18: input() without validation detected",
-      "Line 23: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Security-Aware/GPT/prompt10.py": {
-    "dangerous_functions": [
-      "Line 54: eval() detected - can execute arbitrary code",
-      "Line 194: eval() detected - can execute arbitrary code",
-      "Line 185: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Security-Aware/GPT/prompt2.py": {
-    "dangerous_functions": [
-      "Line 106: input() without validation detected",
-      "Line 127: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Security-Aware/GPT/prompt3.py": {
-    "dangerous_functions": [
-      "Line 10: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Security-Aware/GPT/prompt4.py": {
-    "dangerous_functions": [
-      "Line 118: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Security-Aware/GPT/prompt5.py": {
-    "dangerous_functions": [
-      "Line 30: input() without validation detected",
-      "Line 46: input() without validation detected"
-    ],
-    "sql_injection": [
-      "Line 101: Potential SQL injection via string formatting"
-    ]
-  },
-  "code samples/Python/Security-Aware/GPT/prompt6.py": {
-    "dangerous_functions": [
-      "Line 33: input() without validation detected",
-      "Line 56: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Security-Aware/GPT/prompt7.py": {
-    "dangerous_functions": [
-      "Line 48: input() without validation detected",
-      "Line 59: input() without validation detected",
-      "Line 71: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Security-Aware/GPT/prompt8.py": {
-    "dangerous_functions": [
-      "Line 61: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Security-Aware/GPT/prompt9.py": {
-    "dangerous_functions": [
-      "Line 31: compile() detected - can execute arbitrary code",
-      "Line 92: input() without validation detected"
-    ]
-  },
-  "code samples/Python/Security-Aware/Gemini/prompt1.py": {
+  "code samples/python/security-aware/gemini/prompt1.py": {
     "dangerous_functions": [
       "Line 7: input() without validation detected"
     ]
   },
-  "code samples/Python/Security-Aware/Gemini/prompt10.py": {
+  "code samples/python/security-aware/gemini/prompt10.py": {
     "dangerous_functions": [
       "Line 109: input() without validation detected"
     ]
   },
-  "code samples/Python/Security-Aware/Gemini/prompt2.py": {
+  "code samples/python/security-aware/gemini/prompt2.py": {
     "dangerous_functions": [
       "Line 20: input() without validation detected"
     ],
@@ -418,7 +356,7 @@
       "Line 91: Potential SQL injection via string formatting"
     ]
   },
-  "code samples/Python/Security-Aware/Gemini/prompt3.py": {
+  "code samples/python/security-aware/gemini/prompt3.py": {
     "dangerous_functions": [
       "Line 43: input() without validation detected"
     ],
@@ -429,12 +367,12 @@
       "Line 53: Hardcoded password"
     ]
   },
-  "code samples/Python/Security-Aware/Gemini/prompt4.py": {
+  "code samples/python/security-aware/gemini/prompt4.py": {
     "dangerous_functions": [
       "Line 92: input() without validation detected"
     ]
   },
-  "code samples/Python/Security-Aware/Gemini/prompt5.py": {
+  "code samples/python/security-aware/gemini/prompt5.py": {
     "dangerous_functions": [
       "Line 97: input() without validation detected",
       "Line 108: input() without validation detected",
@@ -446,7 +384,7 @@
       "Line 61: Potential SQL injection via string formatting"
     ]
   },
-  "code samples/Python/Security-Aware/Gemini/prompt6.py": {
+  "code samples/python/security-aware/gemini/prompt6.py": {
     "dangerous_functions": [
       "Line 27: input() without validation detected",
       "Line 48: input() without validation detected",
@@ -454,7 +392,7 @@
       "Line 112: input() without validation detected"
     ]
   },
-  "code samples/Python/Security-Aware/Gemini/prompt7.py": {
+  "code samples/python/security-aware/gemini/prompt7.py": {
     "dangerous_functions": [
       "Line 29: input() without validation detected",
       "Line 51: input() without validation detected",
@@ -462,14 +400,76 @@
       "Line 128: input() without validation detected"
     ]
   },
-  "code samples/Python/Security-Aware/Gemini/prompt8.py": {
+  "code samples/python/security-aware/gemini/prompt8.py": {
     "dangerous_functions": [
       "Line 16: input() without validation detected"
     ]
   },
-  "code samples/Python/Security-Aware/Gemini/prompt9.py": {
+  "code samples/python/security-aware/gemini/prompt9.py": {
     "dangerous_functions": [
       "Line 9: input() without validation detected"
+    ]
+  },
+  "code samples/python/security-aware/gpt/prompt1.py": {
+    "dangerous_functions": [
+      "Line 18: input() without validation detected",
+      "Line 23: input() without validation detected"
+    ]
+  },
+  "code samples/python/security-aware/gpt/prompt10.py": {
+    "dangerous_functions": [
+      "Line 54: eval() detected - can execute arbitrary code",
+      "Line 194: eval() detected - can execute arbitrary code",
+      "Line 185: input() without validation detected"
+    ]
+  },
+  "code samples/python/security-aware/gpt/prompt2.py": {
+    "dangerous_functions": [
+      "Line 106: input() without validation detected",
+      "Line 127: input() without validation detected"
+    ]
+  },
+  "code samples/python/security-aware/gpt/prompt3.py": {
+    "dangerous_functions": [
+      "Line 10: input() without validation detected"
+    ]
+  },
+  "code samples/python/security-aware/gpt/prompt4.py": {
+    "dangerous_functions": [
+      "Line 118: input() without validation detected"
+    ]
+  },
+  "code samples/python/security-aware/gpt/prompt5.py": {
+    "dangerous_functions": [
+      "Line 30: input() without validation detected",
+      "Line 46: input() without validation detected"
+    ],
+    "sql_injection": [
+      "Line 101: Potential SQL injection via string formatting"
+    ]
+  },
+  "code samples/python/security-aware/gpt/prompt6.py": {
+    "dangerous_functions": [
+      "Line 33: input() without validation detected",
+      "Line 56: input() without validation detected"
+    ]
+  },
+  "code samples/python/security-aware/gpt/prompt7.py": {
+    "dangerous_functions": [
+      "Line 48: input() without validation detected",
+      "Line 59: input() without validation detected",
+      "Line 71: input() without validation detected"
+    ]
+  },
+  "code samples/python/security-aware/gpt/prompt8.py": {
+    "dangerous_functions": [
+      "Line 61: input() without validation detected"
+    ]
+  },
+  "code samples/python/security-aware/gpt/prompt9.py": {
+    "dangerous_functions": [
+      "Line 31: compile() detected - can execute arbitrary code",
+      "Line 92: input() without validation detected"
     ]
   }
 }

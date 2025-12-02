@@ -4,7 +4,7 @@
   "total_files_tested": 116,
   "total_issues": 2299,
   "results": {
-    "code samples/Python/Naive/Claude/prompt1.py": {
+    "code samples/python/naive/claude/prompt1.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -50,7 +50,7 @@
         "Potential xss vulnerability detected with payload: <img src=x onerror=alert('XSS')>..."
       ]
     },
-    "code samples/Python/Naive/Claude/prompt10.py": {
+    "code samples/python/naive/claude/prompt10.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -86,7 +86,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Naive/Claude/prompt2.py": {
+    "code samples/python/naive/claude/prompt2.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -132,7 +132,7 @@
         "Potential xss vulnerability detected with payload: <img src=x onerror=alert('XSS')>..."
       ]
     },
-    "code samples/Python/Naive/Claude/prompt3.py": {
+    "code samples/python/naive/claude/prompt3.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -168,7 +168,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Naive/Claude/prompt4.py": {
+    "code samples/python/naive/claude/prompt4.py": {
       "sql_injection_cli": [
         "Potential sql_injection vulnerability detected with payload: ' OR '1'='1...",
         "Potential sql_injection vulnerability detected with payload: 1' OR '1'='1' --...",
@@ -232,7 +232,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Naive/Claude/prompt5.py": {
+    "code samples/python/naive/claude/prompt5.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -296,7 +296,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Naive/Claude/prompt6.py": {
+    "code samples/python/naive/claude/prompt6.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -360,7 +360,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Naive/Claude/prompt7.py": {
+    "code samples/python/naive/claude/prompt7.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -424,7 +424,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Naive/Claude/prompt8.py": {
+    "code samples/python/naive/claude/prompt8.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -471,7 +471,7 @@
         "Potential xss vulnerability detected with payload: <img src=x onerror=alert('XSS')>..."
       ]
     },
-    "code samples/Python/Naive/Claude/prompt9.py": {
+    "code samples/python/naive/claude/prompt9.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -517,7 +517,7 @@
         "Potential xss vulnerability detected with payload: <img src=x onerror=alert('XSS')>..."
       ]
     },
-    "code samples/Python/Naive/GPT/prompt1.py": {
+    "code samples/python/naive/gpt/prompt1.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -553,7 +553,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Naive/GPT/prompt10.py": {
+    "code samples/python/naive/gpt/prompt10.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -589,7 +589,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Naive/GPT/prompt2.py": {
+    "code samples/python/naive/gpt/prompt2.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -625,7 +625,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Naive/GPT/prompt4.py": {
+    "code samples/python/naive/gpt/prompt4.py": {
       "sql_injection_cli": [
         "Potential sql_injection vulnerability detected with payload: ' OR '1'='1...",
         "Potential sql_injection vulnerability detected with payload: 1' OR '1'='1' --...",
@@ -689,7 +689,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Naive/GPT/prompt5.py": {
+    "code samples/python/naive/gpt/prompt5.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -753,7 +753,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Naive/GPT/prompt6.py": {
+    "code samples/python/naive/gpt/prompt6.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -817,7 +817,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Naive/GPT/prompt7.py": {
+    "code samples/python/naive/gpt/prompt7.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -881,7 +881,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Naive/GPT/prompt8.py": {
+    "code samples/python/naive/gpt/prompt8.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -917,7 +917,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Naive/GPT/prompt9.py": {
+    "code samples/python/naive/gpt/prompt9.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -953,7 +953,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Naive/Gemini/prompt1.py": {
+    "code samples/python/naive/gemini/prompt1.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -989,7 +989,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Naive/Gemini/prompt10.py": {
+    "code samples/python/naive/gemini/prompt10.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1025,7 +1025,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Naive/Gemini/prompt2.py": {
+    "code samples/python/naive/gemini/prompt2.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1061,7 +1061,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Naive/Gemini/prompt3.py": {
+    "code samples/python/naive/gemini/prompt3.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1097,7 +1097,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Naive/Gemini/prompt4.py": {
+    "code samples/python/naive/gemini/prompt4.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1133,7 +1133,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Naive/Gemini/prompt5.py": {
+    "code samples/python/naive/gemini/prompt5.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1169,7 +1169,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Naive/Gemini/prompt8.py": {
+    "code samples/python/naive/gemini/prompt8.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1205,7 +1205,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Naive/Gemini/prompt9.py": {
+    "code samples/python/naive/gemini/prompt9.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1241,7 +1241,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Security-Aware/Claude/prompt1.py": {
+    "code samples/python/security-aware/claude/prompt1.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1287,7 +1287,7 @@
         "Potential xss vulnerability detected with payload: <img src=x onerror=alert('XSS')>..."
       ]
     },
-    "code samples/Python/Security-Aware/Claude/prompt10.py": {
+    "code samples/python/security-aware/claude/prompt10.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1323,7 +1323,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Security-Aware/Claude/prompt2.py": {
+    "code samples/python/security-aware/claude/prompt2.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1369,7 +1369,7 @@
         "Potential xss vulnerability detected with payload: <img src=x onerror=alert('XSS')>..."
       ]
     },
-    "code samples/Python/Security-Aware/Claude/prompt3.py": {
+    "code samples/python/security-aware/claude/prompt3.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1405,7 +1405,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Security-Aware/Claude/prompt4.py": {
+    "code samples/python/security-aware/claude/prompt4.py": {
       "sql_injection_cli": [
         "Potential sql_injection vulnerability detected with payload: ' OR '1'='1...",
         "Potential sql_injection vulnerability detected with payload: 1' OR '1'='1' --...",
@@ -1469,7 +1469,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Security-Aware/Claude/prompt5.py": {
+    "code samples/python/security-aware/claude/prompt5.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -1533,7 +1533,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Security-Aware/Claude/prompt6.py": {
+    "code samples/python/security-aware/claude/prompt6.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -1597,7 +1597,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Security-Aware/Claude/prompt7.py": {
+    "code samples/python/security-aware/claude/prompt7.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -1661,7 +1661,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Security-Aware/Claude/prompt8.py": {
+    "code samples/python/security-aware/claude/prompt8.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1697,7 +1697,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Security-Aware/Claude/prompt9.py": {
+    "code samples/python/security-aware/claude/prompt9.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1743,7 +1743,7 @@
         "Potential xss vulnerability detected with payload: <img src=x onerror=alert('XSS')>..."
       ]
     },
-    "code samples/Python/Security-Aware/GPT/prompt1.py": {
+    "code samples/python/security-aware/gpt/prompt1.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1779,7 +1779,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Security-Aware/GPT/prompt10.py": {
+    "code samples/python/security-aware/gpt/prompt10.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1815,7 +1815,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Security-Aware/GPT/prompt2.py": {
+    "code samples/python/security-aware/gpt/prompt2.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -1863,7 +1863,7 @@
         "Potential xss vulnerability detected with payload: <img src=x onerror=alert('XSS')>..."
       ]
     },
-    "code samples/Python/Security-Aware/GPT/prompt4.py": {
+    "code samples/python/security-aware/gpt/prompt4.py": {
       "sql_injection_cli": [
         "Potential sql_injection vulnerability detected with payload: ' OR '1'='1...",
         "Potential sql_injection vulnerability detected with payload: 1' OR '1'='1' --...",
@@ -1927,7 +1927,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Security-Aware/GPT/prompt5.py": {
+    "code samples/python/security-aware/gpt/prompt5.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -1991,7 +1991,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Security-Aware/GPT/prompt6.py": {
+    "code samples/python/security-aware/gpt/prompt6.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -2055,7 +2055,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Security-Aware/GPT/prompt7.py": {
+    "code samples/python/security-aware/gpt/prompt7.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -2119,7 +2119,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Security-Aware/GPT/prompt8.py": {
+    "code samples/python/security-aware/gpt/prompt8.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -2155,7 +2155,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Security-Aware/GPT/prompt9.py": {
+    "code samples/python/security-aware/gpt/prompt9.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -2191,7 +2191,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Security-Aware/Gemini/prompt1.py": {
+    "code samples/python/security-aware/gemini/prompt1.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -2227,7 +2227,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Security-Aware/Gemini/prompt10.py": {
+    "code samples/python/security-aware/gemini/prompt10.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -2263,7 +2263,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Security-Aware/Gemini/prompt2.py": {
+    "code samples/python/security-aware/gemini/prompt2.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -2299,7 +2299,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Security-Aware/Gemini/prompt3.py": {
+    "code samples/python/security-aware/gemini/prompt3.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -2335,7 +2335,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Security-Aware/Gemini/prompt4.py": {
+    "code samples/python/security-aware/gemini/prompt4.py": {
       "sql_injection_cli": [
         "Potential sql_injection vulnerability detected with payload: ' OR '1'='1...",
         "Potential sql_injection vulnerability detected with payload: 1' OR '1'='1' --...",
@@ -2399,7 +2399,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Security-Aware/Gemini/prompt5.py": {
+    "code samples/python/security-aware/gemini/prompt5.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -2463,7 +2463,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Security-Aware/Gemini/prompt6.py": {
+    "code samples/python/security-aware/gemini/prompt6.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -2527,7 +2527,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Security-Aware/Gemini/prompt7.py": {
+    "code samples/python/security-aware/gemini/prompt7.py": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -2591,7 +2591,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Python/Security-Aware/Gemini/prompt8.py": {
+    "code samples/python/security-aware/gemini/prompt8.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -2627,7 +2627,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Python/Security-Aware/Gemini/prompt9.py": {
+    "code samples/python/security-aware/gemini/prompt9.py": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1 (possible infinite loop or hanging)",
         "Timeout with payload: 1' OR '1'='1' -- (possible infinite loop or hanging)",
@@ -2663,7 +2663,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]> (possible infinite loop or hanging)"
       ]
     },
-    "code samples/Java/Naive/Claude/prompt1.java": {
+    "code samples/Java/naive/claude/prompt1.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -2699,7 +2699,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/Claude/prompt10.java": {
+    "code samples/Java/naive/claude/prompt10.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -2735,12 +2735,12 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/Claude/prompt2.java": {
+    "code samples/Java/naive/claude/prompt2.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Naive/Claude/prompt3.java": {
+    "code samples/Java/naive/claude/prompt3.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -2776,7 +2776,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/Claude/prompt4.java": {
+    "code samples/Java/naive/claude/prompt4.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -2812,7 +2812,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/Claude/prompt5.java": {
+    "code samples/Java/naive/claude/prompt5.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -2848,17 +2848,17 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/Claude/prompt6.java": {
+    "code samples/Java/naive/claude/prompt6.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Naive/Claude/prompt7.java": {
+    "code samples/Java/naive/claude/prompt7.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Naive/Claude/prompt8.java": {
+    "code samples/Java/naive/claude/prompt8.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -2894,12 +2894,12 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/Claude/prompt9.java": {
+    "code samples/Java/naive/claude/prompt9.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Naive/GPT/prompt1.java": {
+    "code samples/Java/naive/gpt/prompt1.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -2935,7 +2935,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/GPT/prompt10.java": {
+    "code samples/Java/naive/gpt/prompt10.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -2971,7 +2971,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/GPT/prompt2.java": {
+    "code samples/Java/naive/gpt/prompt2.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3007,7 +3007,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/GPT/prompt3.java": {
+    "code samples/Java/naive/gpt/prompt3.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3043,7 +3043,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/GPT/prompt4.java": {
+    "code samples/Java/naive/gpt/prompt4.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3079,7 +3079,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/GPT/prompt5.java": {
+    "code samples/Java/naive/gpt/prompt5.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3115,17 +3115,17 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/GPT/prompt6.java": {
+    "code samples/Java/naive/gpt/prompt6.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Naive/GPT/prompt7.java": {
+    "code samples/Java/naive/gpt/prompt7.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Naive/GPT/prompt8.java": {
+    "code samples/Java/naive/gpt/prompt8.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3161,7 +3161,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/GPT/prompt9.java": {
+    "code samples/Java/naive/gpt/prompt9.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3197,7 +3197,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/Gemini/prompt1.java": {
+    "code samples/Java/naive/gemini/prompt1.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3233,7 +3233,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/Gemini/prompt10.java": {
+    "code samples/Java/naive/gemini/prompt10.java": {
       "sql_injection_cli": [
         "Unhandled error with payload: ' OR '1'='1... (possible vulnerability)",
         "Unhandled error with payload: 1' OR '1'='1' --... (possible vulnerability)",
@@ -3269,7 +3269,7 @@
         "Unhandled error with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacke... (possible vulnerability)"
       ]
     },
-    "code samples/Java/Naive/Gemini/prompt2.java": {
+    "code samples/Java/naive/gemini/prompt2.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3305,7 +3305,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/Gemini/prompt3.java": {
+    "code samples/Java/naive/gemini/prompt3.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3341,7 +3341,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/Gemini/prompt4.java": {
+    "code samples/Java/naive/gemini/prompt4.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3377,7 +3377,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/Gemini/prompt5.java": {
+    "code samples/Java/naive/gemini/prompt5.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3413,17 +3413,17 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/Gemini/prompt6.java": {
+    "code samples/Java/naive/gemini/prompt6.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Naive/Gemini/prompt7.java": {
+    "code samples/Java/naive/gemini/prompt7.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Naive/Gemini/prompt8.java": {
+    "code samples/Java/naive/gemini/prompt8.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3459,7 +3459,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Naive/Gemini/prompt9.java": {
+    "code samples/Java/naive/gemini/prompt9.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3495,7 +3495,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/Claude/prompt1.java": {
+    "code samples/Java/security-aware/claude/prompt1.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3531,12 +3531,12 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/Claude/prompt10.java": {
+    "code samples/Java/security-aware/claude/prompt10.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Security-Aware/Claude/prompt2.java": {
+    "code samples/Java/security-aware/claude/prompt2.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3572,7 +3572,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/Claude/prompt3.java": {
+    "code samples/Java/security-aware/claude/prompt3.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3608,7 +3608,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/Claude/prompt4.java": {
+    "code samples/Java/security-aware/claude/prompt4.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3644,7 +3644,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/Claude/prompt5.java": {
+    "code samples/Java/security-aware/claude/prompt5.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3680,17 +3680,17 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/Claude/prompt6.java": {
+    "code samples/Java/security-aware/claude/prompt6.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Security-Aware/Claude/prompt7.java": {
+    "code samples/Java/security-aware/claude/prompt7.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Security-Aware/Claude/prompt8.java": {
+    "code samples/Java/security-aware/claude/prompt8.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3726,7 +3726,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/Claude/prompt9.java": {
+    "code samples/Java/security-aware/claude/prompt9.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3762,7 +3762,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/GPT/prompt1.java": {
+    "code samples/Java/security-aware/gpt/prompt1.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3798,7 +3798,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/GPT/prompt10.java": {
+    "code samples/Java/security-aware/gpt/prompt10.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3834,7 +3834,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/GPT/prompt2.java": {
+    "code samples/Java/security-aware/gpt/prompt2.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3870,7 +3870,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/GPT/prompt3.java": {
+    "code samples/Java/security-aware/gpt/prompt3.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3906,7 +3906,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/GPT/prompt4.java": {
+    "code samples/Java/security-aware/gpt/prompt4.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3942,7 +3942,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/GPT/prompt5.java": {
+    "code samples/Java/security-aware/gpt/prompt5.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -3978,17 +3978,17 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/GPT/prompt6.java": {
+    "code samples/Java/security-aware/gpt/prompt6.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Security-Aware/GPT/prompt7.java": {
+    "code samples/Java/security-aware/gpt/prompt7.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Security-Aware/GPT/prompt8.java": {
+    "code samples/Java/security-aware/gpt/prompt8.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -4024,7 +4024,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/GPT/prompt9.java": {
+    "code samples/Java/security-aware/gpt/prompt9.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -4060,7 +4060,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/Gemini/prompt1.java": {
+    "code samples/Java/security-aware/gemini/prompt1.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -4096,7 +4096,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/Gemini/prompt10.java": {
+    "code samples/Java/security-aware/gemini/prompt10.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -4132,7 +4132,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/Gemini/prompt2.java": {
+    "code samples/Java/security-aware/gemini/prompt2.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -4168,38 +4168,38 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/Gemini/prompt3.java": {
+    "code samples/Java/security-aware/gemini/prompt3.java": {
       "sql_injection_cli": [
         "Potential sql_injection vulnerability detected with payload: ' OR '1'='1...",
         "Potential sql_injection vulnerability detected with payload: 1' OR '1'='1' --...",
         "Potential sql_injection vulnerability detected with payload: admin'--..."
       ]
     },
-    "code samples/Java/Security-Aware/Gemini/prompt4.java": {
+    "code samples/Java/security-aware/gemini/prompt4.java": {
       "sql_injection_cli": [
         "Potential sql_injection vulnerability detected with payload: ' OR '1'='1...",
         "Potential sql_injection vulnerability detected with payload: 1' OR '1'='1' --...",
         "Potential sql_injection vulnerability detected with payload: admin'--..."
       ]
     },
-    "code samples/Java/Security-Aware/Gemini/prompt5.java": {
+    "code samples/Java/security-aware/gemini/prompt5.java": {
       "sql_injection_cli": [
         "Potential sql_injection vulnerability detected with payload: ' OR '1'='1...",
         "Potential sql_injection vulnerability detected with payload: 1' OR '1'='1' --...",
         "Potential sql_injection vulnerability detected with payload: admin'--..."
       ]
     },
-    "code samples/Java/Security-Aware/Gemini/prompt6.java": {
+    "code samples/Java/security-aware/gemini/prompt6.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Security-Aware/Gemini/prompt7.java": {
+    "code samples/Java/security-aware/gemini/prompt7.java": {
       "compilation_error": [
         "Failed to compile Java file"
       ]
     },
-    "code samples/Java/Security-Aware/Gemini/prompt8.java": {
+    "code samples/Java/security-aware/gemini/prompt8.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",
@@ -4235,7 +4235,7 @@
         "Timeout with payload: <!DOCTYPE foo [<!ENTITY xxe SYSTEM 'http://attacker.com/evil'>]>"
       ]
     },
-    "code samples/Java/Security-Aware/Gemini/prompt9.java": {
+    "code samples/Java/security-aware/gemini/prompt9.java": {
       "sql_injection_cli": [
         "Timeout with payload: ' OR '1'='1",
         "Timeout with payload: 1' OR '1'='1' --",

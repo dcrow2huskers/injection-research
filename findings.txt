@@ -1,8 +1,0 @@
-FINDINGS
-•	Do LLMs generate insecure code without explicit security nudging?
-•	Does adding safety nudges cause code to become secure?
-•	Do follow-up prompts successfully repair insecure output?
-•	Do different LLMs behave differently?
-•	Do LLMs treat Python and Java similarly under hybrid prompts?
-•	Does the model hallucinate “extra safety measures”?
-•	Does the model reject unsafe requests?

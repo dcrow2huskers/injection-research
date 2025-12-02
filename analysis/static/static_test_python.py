@@ -282,7 +282,7 @@ class TestHarness:
         
         return results
     
-    def export_results(self, results: Dict, output_file: str = 'security_report.json'):
+    def export_results(self, results: Dict, output_file: str = 'python_security_report.json'):
         """Export results to JSON file"""
         with open(output_file, 'w') as f:
             json.dump(results, f, indent=2)
