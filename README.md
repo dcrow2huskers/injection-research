@@ -154,14 +154,12 @@ Below is a complete list of submitted files and their formats.
 
 ---
 
-## 1. How to Compile and Run the Programs
+### 6. Intended Use
 
 > **Important:** This repository is an **archival research artifact**.  
-> The graders **do not need to run** the code to evaluate the project.
+> Artifact graders **do not need to run** the code to evaluate the project.
 
 All source code and analysis artifacts are included so that the experiments **could** be reproduced, but the project was designed as a **measurement study**, not as a user-facing application.
-
-### 1.1 Intended Use
 
 - The Python and Java files under `/code samples/` are **LLM outputs** used as subjects for analysis.
 - The scripts in `/figures/` or `/analysis/` were written only to:
