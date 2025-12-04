@@ -74,7 +74,13 @@ Output stored in: /analysis/dynamic
 
 ### 5. **Submitted Files and Directory Structure**
 
-Below is a complete list of submitted files and their formats.  
+Below is a complete list of submitted files and their formats. 
+
+How to Navigate This Repository
+	•	See /code samples/ for all LLM-generated Python and Java programs.
+	•	See /analysis/static/ for Bandit, Semgrep, and SpotBugs results.
+	•	See /analysis/dynamic/ for runtime artifacts and the dynamic harness.
+	•	See /figures/ for all analysis scripts and generated images for the report.
 
 - `/prompts/`
   - `naive.txt` – Text file containing the 10 naïve prompts used in the study.
@@ -154,15 +160,26 @@ Below is a complete list of submitted files and their formats.
 
 ---
 
-### 6. Intended Use
+### 6. Known Limitations
+	•	The generated Python and Java programs are not production-ready and may fail to execute due to syntax errors, missing dependencies, or incomplete logic.
+	•	Dynamic testing was performed only on samples that executed safely in a sandbox environment.
+	•	Static analysis tools may produce false positives or negatives (a known limitation of Bandit, Semgrep, and SpotBugs).
+	•	Results reflect specific model versions at the time of the experiment and may differ for future LLM iterations.
+	•	Some artifacts in /analysis/dynamic/ (e.g., .txt, .db, .json files) were created automatically during runtime execution.
+
+---
+
+### 7. Intended Use
 
 > **Important:** This repository is an **archival research artifact**.  
 > Artifact graders **do not need to run** the code to evaluate the project.
 
-All source code and analysis artifacts are included so that the experiments **could** be reproduced, but the project was designed as a **measurement study**, not as a user-facing application.
+All source code and analysis artifacts are included so that the experiments **could** be reproduced, but the project was designed as a **measurement study**, not as a user-facing application. Thus, no makefile or compilation instructions are included.
 
 - The Python and Java files under `/code samples/` are **LLM outputs** used as subjects for analysis.
 - The scripts in `/figures/` or `/analysis/` were written only to:
   - Invoke custom static/dynamic analysis testing.
   - Visualize results from json and csv analysis output.
 - There is **no single “main program”** to compile or run.
+
+---
