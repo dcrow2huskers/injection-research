@@ -37,9 +37,9 @@ Clear instructions to sanitize input, validate parameters, and prevent injection
 Purpose: measure whether secure prompting reduces vulnerabilities.
 
 Complete prompt list is stored in:
-/prompts/
-naive.txt
-security_aware.txt
+- `/prompts/`
+  - `naive.txt`
+  - `security_aware.txt`
 
 ---
 
@@ -48,7 +48,7 @@ security_aware.txt
 - **Google Gemini (Gemini 3 Pro)**  
 - **Anthropic Claude (Sonnet 4.5)**  
 
-Each prompt is run on each model → **20 × 3 = 60 samples per language**.
+Each prompt is run on each model across 2 languages → **20 × 3 × 2 = 120 total samples (60 samples per language)**.
 
 ---
 
@@ -56,7 +56,7 @@ Each prompt is run on each model → **20 × 3 = 60 samples per language**.
 Tools include:
 - **Bandit** (Python)
 - **Semgrep** (Python + Java)
-- **SpotBugs (FindSecBugs)** (Java)
+- **SpotBugs** (Java)
 
 Output is stored in: /analysis/static/
 
@@ -64,7 +64,7 @@ Output is stored in: /analysis/static/
 
 ### 4. **Dynamic Testing**
 Where applicable:
-- Execute generated code in a sandbox
+- Execute generated code in a sandboxed environment
 - Attempt exploitation using test payloads (e.g., command-injection strings, SQL payloads)
 - Record which attacks succeed
 
@@ -74,13 +74,11 @@ Output stored in: /analysis/dynamic
 
 ### 5. **Submitted Files and Directory Structure**
 
-Below is a complete list of submitted files and their formats. 
-
-How to Navigate This Repository
-	•	See /code samples/ for all LLM-generated Python and Java programs.
-	•	See /analysis/static/ for Bandit, Semgrep, and SpotBugs results.
-	•	See /analysis/dynamic/ for runtime artifacts and the dynamic harness.
-	•	See /figures/ for all analysis scripts and generated images for the report.
+To navigate this repository quickly,
+  - See `/code samples/` for all LLM-generated Python and Java programs.
+  - See `/analysis/static/` for Bandit, Semgrep, and SpotBugs results.
+  - See `/analysis/dynamic/` for runtime artifacts and the dynamic harness.
+  - See `/figures/` for all analysis scripts and generated images for the report.
 
 - `/prompts/`
   - `naive.txt` – Text file containing the 10 naïve prompts used in the study.
@@ -93,6 +91,8 @@ How to Navigate This Repository
   - `custom_static_analysis.py`, `custom_static_analysis.png` – Script and aggregated figure combining results from all static analysis tools.
   - `dynamic.py` – Script used to process runtime test logs and produce dynamic analysis visualizations.
   - `dynamic_sankey.html`, `dynamic_sankey.png` – Interactive and static Sankey diagrams visualizing model → prompt → vulnerability outcome flow.
+
+  Below is a complete list of submitted files and their formats. 
 
 - `/code samples/`
   - `/python/`
